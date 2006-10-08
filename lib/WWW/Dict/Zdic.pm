@@ -3,7 +3,8 @@ package WWW::Dict::Zdic;
 use warnings;
 use strict;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
+use base 'WWW::Dict';
 
 use WWW::Mechanize;
 use Encode;
@@ -14,16 +15,9 @@ use Class::Field qw'field const';
 
 # Module implementation here
 
-const dict_url => 'http://www.zdic.net';
-
 field ua => -init => 'WWW::Mechanize->new()';
+const dict_url => 'http://www.zdic.net';
 field word => '';
-
-sub new {
-    my $class = shift;
-    my $self  = {};
-    return bless $self, $class;
-}
 
 sub define {
     my $self = shift;

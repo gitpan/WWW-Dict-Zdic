@@ -16,6 +16,7 @@ requires:
   HTML::Entities: 0
   HTML::TagParser: 0
   URI::Escape: 0
+  WWW::Dict: 0
   WWW::Mechanize: 0
   version: 0
 version: !!perl/hash:version 
@@ -23,4 +24,4 @@ version: !!perl/hash:version
   version: 
     - 0
     - 0
-    - 1
+    - 2
