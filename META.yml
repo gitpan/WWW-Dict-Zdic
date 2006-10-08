@@ -18,10 +18,5 @@ requires:
   URI::Escape: 0
   WWW::Dict: 0
   WWW::Mechanize: 0
-  version: 0
-version: !!perl/hash:version 
-  qv: 1
-  version: 
-    - 0
-    - 0
-    - 2
+  perl: 5.8.0
+version: 0.0.3
