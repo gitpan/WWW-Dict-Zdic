@@ -3,7 +3,7 @@ package WWW::Dict::Zdic;
 use warnings;
 use strict;
 use v5.8.0;
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 use base 'WWW::Dict';
 
@@ -70,7 +70,7 @@ WWW::Dict::Zdic - Zdic Chinese Dictionary interface
 
 =head1 VERSION
 
-This document describes WWW::Dict::Zdic version 0.0.3
+This document describes WWW::Dict::Zdic version 0.0.4
 
 =head1 SYNOPSIS
 

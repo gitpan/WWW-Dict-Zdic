@@ -1,5 +1,8 @@
 Revision history for WWW-Dict-Zdic
 
+0.0.4 Sun Oct  8 19:28:43 CST 2006
+      - There's a syntax error in 0.0.3 :(
+
 0.0.3 Sun Oct  8 12:27:02 CST 2006
       - Don't use version.pm, it's giving warnings.
       - Apply slanning's perlcritic.t patch.
